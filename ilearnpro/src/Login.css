@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor Login-boxone*/
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color:  #fff;
+    border-radius:0;
+    width: 60em;
+    height: 30em;
+    box-shadow: 0 2px 40px #000;
+    position: relative;
+    display: flex;
+    margin-left: 10em;
+    margin-top: -33em;
+}
+.Login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5em;
+}
+.face {
+    height: 2vh;
+    width: 15%;
+}
+.Google {
+    height: 2vh;
+    width: 15%;
+}
+.ico {
+    height: 15vh;
+    width: 30%;
+    border-radius: 150px;
+    box-shadow: 0 2px 40px #000;
+    margin-top: -15em;
+}
+.mini {
+    height: 84vh;
+    width: 50%;
+}
+.bigfondo {
+    width: 100%;
+    height: 35.6em;
+}
